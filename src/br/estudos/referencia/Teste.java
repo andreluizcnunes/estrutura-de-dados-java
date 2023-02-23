@@ -4,6 +4,7 @@ public class Teste {
 
     public static void main(String[] args) {
 
+        /*
         int intA = 1;
         int intB = intA;
 
@@ -11,12 +12,15 @@ public class Teste {
 
         intA = 2;
         System.out.println("intA= "+ intA + " IntB= "+intB);
+        */
 
-        Referencia refA = new Referencia(1);
-        Referencia refB = refA;
-        System.out.println("refA= "+ refA + " RefB= "+refB);
+        Referencia intC = new Referencia(1);
+        Referencia intD = intC;
 
-        refA.setNum(2);
-        System.out.println("refA= "+ refA + " RefB= "+refB);
+        System.out.println("intC= "+ intC.getNum() + " IntD= "+intD.getNum());
+
+        intC.setNum(2);
+        System.out.println("intC= "+ intC.getNum() + " IntD= "+intD.getNum());
+
     }
 }

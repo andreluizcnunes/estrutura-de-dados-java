@@ -12,10 +12,7 @@ public class Referencia {
         this.num = num;
     }
 
-    @Override
-    public String toString() {
-        return "Referencia{" +
-                "num=" + num +
-                '}';
+    public int getNum() {
+        return num;
     }
 }

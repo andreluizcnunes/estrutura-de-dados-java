@@ -4,16 +4,6 @@ public class Teste {
 
     public static void main(String[] args) {
 
-        /*
-        int intA = 1;
-        int intB = intA;
-
-        System.out.println("intA= "+ intA + " IntB= "+intB);
-
-        intA = 2;
-        System.out.println("intA= "+ intA + " IntB= "+intB);
-        */
-
         Referencia intC = new Referencia(1);
         Referencia intD = intC;
 
@@ -24,3 +14,13 @@ public class Teste {
 
     }
 }
+
+ /*
+        int intA = 1;
+        int intB = intA;
+
+        System.out.println("intA= "+ intA + " IntB= "+intB);
+
+        intA = 2;
+        System.out.println("intA= "+ intA + " IntB= "+intB);
+        */

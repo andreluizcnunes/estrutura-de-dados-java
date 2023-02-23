@@ -10,7 +10,7 @@ public class Teste {
 
 
 
-
+// usando com opção 2 da classe Vetor
 //        try {
 //
 //            vetor.adiciona("Elemento 1");

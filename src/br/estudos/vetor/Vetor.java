@@ -10,6 +10,7 @@ public class Vetor{
         tamanho = 0;
     }
 
+// opção 2
 //    public void adiciona(String elemento) throws Exception{
 //        if(tamanho < elementos.length){
 //            elementos[tamanho] = elemento;
@@ -20,7 +21,7 @@ public class Vetor{
 //    }
 
 
-// OPÇÃO COM BOOLEAN
+// OPÇÃO 3 COM BOOLEAN
     public boolean adiciona(String elemento){
         if(tamanho < elementos.length){
             elementos[tamanho] = elemento;
